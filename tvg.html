@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Jad Hage</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vendor.css">     
+   
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          margin: 0;
+          font-family: Arial;
+        }
+        
+        .header {
+          text-align: center;
+          padding: 32px;
+        }
+        
+        .row {
+          display: -ms-flexbox; /* IE10 */
+          display: flex;
+          -ms-flex-wrap: wrap; /* IE10 */
+          flex-wrap: wrap;
+          padding: 0 30px;
+        }
+        
+        /* Create four equal columns that sits next to each other */
+        .column {
+          -ms-flex: 50%; /* IE10 */
+          flex: 50%;
+          max-width: 50%;
+          padding: 0 4px;
+        }
+        
+        .column img {
+          margin-top: 8px;
+          vertical-align: middle;
+          width: 100%;
+          border-radius: 6px;
+        }
+        
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+          .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+          }
+        }
+        
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+          }
+        }
+
+        h1{
+            color: white;
+        }
+        .container {
+  position: relative;
+  width: auto;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  opacity: 1;
+}
+  </style>
+</head>
+
+
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Television</h1>
+  <p>Presenting, Co-presenting, Reports and Researches.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+
+    <div class="container">
+      <img src="jadgallery/dri5.jpeg" alt="dri" class="image">
+      <div class="overlay">DRI - Reporting</div>
+    </div>
+   <div class="container">
+    <img src="jadgallery/dri6.jpeg" alt="dri" class="image">
+    <div class="overlay">DRI - Workshop</div>
+   </div>
+    <div class="container">
+      <img src="jadgallery/dri7.jpeg" alt="dri" class="image">
+      <div class="overlay">DRI - Co-Presenting</div>
+    </div>
+    <div class="container">
+      <img src="jadgallery/dri4.jpg" alt="dri" class="image">
+      <div class="overlay">DRI - Workshop</div>
+    </div>
+    <div class="container">
+      <img src="jadgallery/catch.jpeg" alt="music" class="image">
+      <div class="overlay">CATCH THE WEEK - Presenter & Content Creator
+      </div>
+    </div>
+  </div>
+  <!-- ================================================= -->
+  <div class="column">
+    <div class="container">
+      <img src="jadgallery/dri1.jpeg" alt="dri" class="image">
+      <div class="overlay">DRI Season 2 Poster</div>
+    </div>    
+    <div class="container">
+      <img src="jadgallery/dri2.jpg" alt="dri" class="image">
+      <div class="overlay">DRI - Workshop</div>
+    </div>    
+    <div class="container">
+      <img src="jadgallery/dri3.jpg" alt="dri" class="image">
+      <div class="overlay">DRI - Presenting</div>
+    </div>
+    </div>
+
+
+</div>
+
+</body>
+</html>
